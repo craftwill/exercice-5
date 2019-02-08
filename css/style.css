@@ -915,15 +915,15 @@ body {
 @-webkit-keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateY(-5vw) rotate(180deg) scale(0.5);
-            transform: translateY(-5vw) rotate(180deg) scale(0.5);
-    -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-            animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    -webkit-transform: translateY(-5vw) rotate(4800deg) scale(0);
+            transform: translateY(-5vw) rotate(4800deg) scale(0);
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0.01, 0.97, 0.19);
+            animation-timing-function: cubic-bezier(0.5, 0.01, 0.97, 0.19);
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateY(20vw) rotate(245deg) scale(1.4);
+            transform: translateY(20vw) rotate(245deg) scale(1.4);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }
@@ -937,15 +937,15 @@ body {
 @keyframes animationLettre {
   from {
     /* opacity:  0; */
-    -webkit-transform: translateY(-5vw) rotate(180deg) scale(0.5);
-            transform: translateY(-5vw) rotate(180deg) scale(0.5);
-    -webkit-animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
-            animation-timing-function: cubic-bezier(0.8, 0.01, 0.97, 0.19);
+    -webkit-transform: translateY(-5vw) rotate(4800deg) scale(0);
+            transform: translateY(-5vw) rotate(4800deg) scale(0);
+    -webkit-animation-timing-function: cubic-bezier(0.5, 0.01, 0.97, 0.19);
+            animation-timing-function: cubic-bezier(0.5, 0.01, 0.97, 0.19);
   }
   50% {
     /* opacity:  .5; */
-    -webkit-transform: translateY(30vw) rotate(180deg) scale(1.5);
-            transform: translateY(30vw) rotate(180deg) scale(1.5);
+    -webkit-transform: translateY(20vw) rotate(245deg) scale(1.4);
+            transform: translateY(20vw) rotate(245deg) scale(1.4);
     -webkit-animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
             animation-timing-function: cubic-bezier(0.09, 0.25, 0.19, 1.01);
   }

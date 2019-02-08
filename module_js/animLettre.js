@@ -17,7 +17,7 @@ export class AnimLettre
             i++;
             let nouvelleLettre = document.createElement("span");
             nouvelleLettre.innerHTML = uneLettre;
-            nouvelleLettre.style.animationDelay = (i * this.tempsEntreLettres) + "s";
+            nouvelleLettre.style.animationDelay = (i * this.tempsEntreLettres * (1+(i*i)/100)) + "s";
             nouvelleLettre.classList.add("classAnimLettre");
             elmMot.appendChild(nouvelleLettre);
 		}

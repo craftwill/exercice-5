@@ -14,13 +14,13 @@
 @keyframes animationLettre {
     from {
         /* opacity:  0; */
-        transform: translateY(-5vw) rotate(180deg) scale(0.5);
-        animation-timing-function: cubic-bezier(.8, .01, .97, .19);
+        transform: translateY(-5vw) rotate(4800deg) scale(0);
+        animation-timing-function: cubic-bezier(.5, .01, .97, .19);
     }
 
     50% {
         /* opacity:  .5; */
-        transform: translateY(30vw) rotate(180deg) scale(1.5);
+        transform: translateY(20vw) rotate(245deg) scale(1.4);
         animation-timing-function: cubic-bezier(.09, .25, .19, 1.01);
     }
 
