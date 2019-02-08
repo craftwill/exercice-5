@@ -8,13 +8,13 @@
 }
 
 .mot:nth-child(1)>span {
-    animation: animationLettre 1s both;
+    animation: animationLettre 1.4s both;
 }
 
 @keyframes animationLettre {
     from {
         /* opacity:  0; */
-        transform: translateY(-75vw) rotate(180deg) scale(1);
+        transform: translateY(-5vw) rotate(180deg) scale(0.5);
         animation-timing-function: cubic-bezier(.8, .01, .97, .19);
     }
 

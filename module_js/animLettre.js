@@ -1,8 +1,9 @@
 export class AnimLettre
 {
-    constructor(lesLettres, elmHeader, finAnim)
+    constructor(contenu, elmHeader, finAnim)
     {
-        this.lesLettres = lesLettres;
+        this.tempsEntreLettres = contenu.tempsEntreLettres;
+        this.lesLettres = contenu.lesLettres;
         this.nbLettres = this.lesLettres.length;
         this.elmHeader = elmHeader;
         this.animerLettres();
@@ -16,7 +17,7 @@ export class AnimLettre
             i++;
             let nouvelleLettre = document.createElement("span");
             nouvelleLettre.innerHTML = uneLettre;
-            nouvelleLettre.style.animationDelay = (i * 0.15) + "s";
+            nouvelleLettre.style.animationDelay = (i * this.tempsEntreLettres) + "s";
             nouvelleLettre.classList.add("classAnimLettre");
             elmMot.appendChild(nouvelleLettre);
 		}

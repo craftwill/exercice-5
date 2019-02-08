@@ -1,6 +1,7 @@
 
 import {contenuIntro} from './contenuIntro.js' // le contenu de l'intoduction */
 import {Introduction} from './Introduction.js' // 
+import {contenuAnimLettre} from './contenuAnimLettre.js' // le contenu de l'animLettre */
 import {AnimLettre} from './AnimLettre.js' //
 
 
@@ -15,8 +16,7 @@ function animationLettre()
 {
     /* Une fois que l'animation des mots est terminé la fonction animLettre s'exécutera */ 
 	console.log('debut animation lettre');
-	const lesLettres = 'Veille-technologique';
- 	let monAnimLettre = new AnimLettre(lesLettres, elmHeader, finAnim);
+ 	let monAnimLettre = new AnimLettre(contenuAnimLettre, elmHeader, finAnim);
 }
 
 
